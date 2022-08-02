@@ -111,9 +111,7 @@
       border: 1px solid red;
     }
     .input-short {
-
       width: 100%;
-      padding-left: 10px;
       font-size: 16px;
       line-height: 1em;
       padding:15px 7px;
@@ -123,7 +121,26 @@
       border-bottom:1px solid #000000;
       line-height: 1em;
     }
+
+
+
+
   };
+
+  @media only screen and (max-width: 480px){
+    .wrap-login,.popup-login{
+      .login-content {
+        width: 100%;
+        padding:20px;
+      }
+    }
+    .table-main{
+      padding:0 15px;
+    }
+
+  }
+
+
   .d-flex{
     display: flex;
   }
@@ -159,4 +176,7 @@ button{
 .table-main{
     max-width: 500px;
     margin:30px auto;
+}
+.w-100{
+  width: 100%;
 }
